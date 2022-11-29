@@ -5,7 +5,7 @@ Create an Internal Load Balancer
 https://www.qwiklabs.com/focuses/1250?parent=catalog
 
 ## Terminal 1
-> git clone https://github.com/gablooge/GSP216.git
+> git clone https://github.com/rafiqola/GSP216.git
 
 > cd GSP216
 
