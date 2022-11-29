@@ -30,7 +30,7 @@ gcloud compute instance-groups managed create instance-group-2 --base-instance-n
 
 gcloud beta compute instance-groups managed set-autoscaling "instance-group-2" --zone "us-west1-b" --cool-down-period "45" --max-num-replicas "5" --min-num-replicas "1" --target-cpu-utilization "0.8" --mode "on"
 
-gcloud beta compute instances create utility-vm --zone=us-west1-f --machine-type=f1-micro --subnet=subnet-a --private-network-ip=10.10.20.50 
+gcloud beta compute instances create utility-vm --zone=us-west1-c --machine-type=f1-micro --subnet=subnet-a --private-network-ip=10.10.20.50 
 
 
 
